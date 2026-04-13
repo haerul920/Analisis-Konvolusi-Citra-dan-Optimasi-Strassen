@@ -90,6 +90,6 @@ konvolusi.exe
 Hasil Akhir: Jika berhasil, terminal akan menampilkan pesan "Proses selesai. Cek output_blur.png". Anda akan menemukan file gambar baru (output_blur.png) di folder tersebut.
 
 ## 🧹 Penanganan Error Umum (Troubleshooting)
-🔴 gcc: command not found ➔ Artinya compiler C belum terinstal di sistem Anda. Silakan instal GCC (atau MinGW untuk Windows) terlebih dahulu.
-🔴 fatal error: stb_image.h: No such file or directory ➔ Pastikan kedua file header stb_image benar-benar ada di dalam folder yang sama persis dengan konvolusi.c.
+🔴 gcc: command not found ➔ Artinya compiler C belum terinstal di sistem Anda. Silakan instal GCC (atau MinGW untuk Windows) terlebih dahulu.</br>
+🔴 fatal error: stb_image.h: No such file or directory ➔ Pastikan kedua file header stb_image benar-benar ada di dalam folder yang sama persis dengan konvolusi.c.</br>
 🔴 Program konvolusi langsung keluar tanpa hasil / pesan ➔ Hal ini terjadi karena program gagal membaca gambar. Pastikan gambar Anda benar-benar bernama input.png dan pastikan ekstensi file tidak ganda (contoh salah: input.png.png).
