@@ -37,10 +37,10 @@ Ikuti instruksi di bawah ini dengan membuka **Terminal** (Linux/macOS) atau **Co
 ### 1. Menjalankan `perkalian_matriks.c` (Strassen 2x2)
 Program ini akan mengisi matriks dengan angka acak (0-9) secara otomatis dan menghitung hasil perkaliannya menggunakan algoritma Strassen dasar.
 
-* **Langkah Kompilasi:**
-  ```bash
-  gcc perkalian_matriks.c -o perkalian_matriks
-  ```
+**Langkah Kompilasi:**
+```bash
+gcc perkalian_matriks.c -o perkalian_matriks
+ ```
 
 **Langkah Eksekusi:**
 
